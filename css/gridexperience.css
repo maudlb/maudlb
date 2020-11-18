@@ -1,0 +1,152 @@
+/*Bloc expérience*/
+.logoexp {
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.rotate {
+  transform: rotateZ(90deg);
+  color: #ffffff;
+  text-shadow: #bbbbbb 0.1em 0.1em 0.2em;
+  padding: 10px;
+}
+
+.degrade {
+  background-image:linear-gradient(#da5f5f, #985161);
+  margin: -10px 0 -10px 0;
+}
+
+.paddinggrid {
+  padding: 10px;
+}
+
+#enseignementgrid {
+  padding:10px 10px 10px 0;
+  display: grid;
+  grid-template-areas: 
+    "k3 l8 m8 n3";
+  grid-template-columns: 5% auto 1fr 50%;
+  grid-template-rows: auto;
+}
+
+#tourismegrid {
+  padding:10px 10px 10px 0;
+  display: grid;
+  grid-template-areas: 
+    "k2 l4 m4 n2"
+    "k2 l1 m1 n2";
+  grid-template-columns: 5% auto 1fr 50%;
+  grid-template-rows: auto auto;
+}
+
+#ventegrid {
+  padding:10px 10px 10px 0;
+  display: grid;
+  grid-template-areas: 
+    "k1 l7 m7 n1"
+    "k1 l2 m2 n1"
+    "k1 l3 m3 n1";
+  grid-template-columns: 5% auto 1fr 50%;
+  grid-template-rows: auto auto auto;
+}
+
+#vente {
+  grid-area: k1;
+}
+
+#tourisme {
+  grid-area: k2;
+}
+
+#enseignement {
+grid-area: k3;
+}
+
+#logomarine {
+  grid-area: l1;
+}
+
+#marine {
+  grid-area: m1;
+}
+
+#logokiabi {
+  grid-area: l2;
+}
+
+#kiabi {
+  grid-area: m2;
+}
+
+#logopointp {
+  grid-area: l3;
+}
+
+#pointp {
+  grid-area: m3;
+}
+
+#logotourthouars {
+  grid-area : l4;
+}
+
+#tourthouars {
+  grid-area: m4;
+}
+
+#logobenevol {
+  grid-area: l5;
+}
+
+#benevol {
+  grid-area: m5;
+}
+
+#logowelina {
+  grid-area: l6;
+}
+
+#welina {
+  grid-area: m6;
+}
+
+#logoleroy {
+  grid-area: l7;
+}
+
+#leroy {
+  grid-area: m7
+}
+
+#logocscfosse {
+  grid-area: l8;
+}
+
+#cscfosse {
+  grid-area: m8
+}
+
+#compvente {
+  grid-area: n1;
+  text-align: center;
+  line-height: 2;
+}
+
+#comptourisme {
+  grid-area: n2;
+  text-align: center;
+  line-height: 2;
+}
+
+#compenseignement {
+  grid-area: n3;
+  text-align: center;
+  line-height: 2;
+}
+
+.ulkiabi {
+  display:inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+ }

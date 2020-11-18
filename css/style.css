@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 50px auto;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  padding-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Alex Brush', cursive;
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #985161;
+  text-shadow: #bbbbbb 0.1em 0.1em 0.2em;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+a {
+  color: #513D67;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+hr {
+  margin: 20px 0 20px 0;
+  height: 1px;
+  color: #bbbbbb;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, 0.30);
+}
+}
+
+span {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+  color: #BBBBBB;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color:000000; 
+}
+
+/*Couleurs de fond*/
+
+.bordeauxplein {
+  background-color: #985161; 
+}
+
+.bordeaux {
+  background-image:linear-gradient(#985161, #da5f5f);
+}
+
+.grisclair {
+  background-color: #F0F3F4;
+  padding-bottom:10px;
+  width: 100%;
+
+}
+
+.blanc {
+  background-color: #FFFFFF;
+  padding-bottom:10px;
+}
+
+.box {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.shadow {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, 0.30);
+}
+
+/*Menu du site*/
+.menu {
+  display: inline-block;
+}
+
+.lien {
+  font-weight: 500;
+  color : #000000;
+}
+
+#menu {
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 0 10% auto 10%;
+  padding: 0;
+}
+
+#logomaud {
+  width: 50px;
+  border-radius: 50%;
+}
+
+#main {
+  padding-top: 80px;
+}
+
+.anchor {
+  padding-top: 60px;
+  visibility: hidden;
+}
+
+/*Bloc profil*/
+#profil {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: -70px;
+  position: relative;
+  border-radius: .20rem;
+}
+
+#profil h1 {
+  text-align: left;
+}
+
+#photo {
+  width: 100%;
+  border-radius: .20rem;
+}
+
+#presentation {
+  width: 100%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+#social {
+  margin : 0;
+  padding: 0;
+  text-align: center;
+}
+
+#social li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.icon {
+  width: 35px;
+}
+
+/*Bloc formation*/
+/*Voir timeline.css pour la timeline de la formation*/
+#formation {
+  padding-top: 70px;
+}
+
+
+.logo {
+  width: 85px;
+  max-height: 85px;
+  text-align: right
+}
+
+.liexp {
+  padding:0;
+}
+
+.date {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.intitulé {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.détail {
+
+}
+
+.lieu {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: italic;
+}
+
+/*Voir gridexperience.css pour le bloc expérience*/
+/*Bloc compétences*/
+#competences {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  text-align: center;
+}
+
+#competences ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#competences li {
+  padding: 0;
+}
+
+.titre {
+  background-image:linear-gradient(#da5f5f, #985161);
+  color: #ffffff;
+}
+
+.titre h2 {
+  padding: 10px !important;
+  text-shadow: #bbbbbb 0.1em 0.1em 0.2em;
+}
+
+.icontitre {
+  color: #ffffff;
+  width: 30px;
+}
+
+.iconcompetences {
+  color: #da5F5F;
+  width: 15px;
+  opacity: 0.8;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#langues ul {
+  padding: 15px 10px 15px 10px !important;
+}
+
+#outilsnum {
+  padding-top: 15px;
+  display: grid;
+  grid-template-areas:
+   ". a a a a a a a a ."
+   ". b b b b b b b b ."
+   ". c c c c c c c c ."
+   ". d d e e f f g g ."
+   ". . h h i i j j . .";
+   grid-template-columns: repeat(10, 10%);
+   grid-template-rows: 45px 35px 35px 40px 40px;
+   align-items: center;
+}
+
+.iconoutil {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.pres {
+  grid-area: a;
+}
+
+.veil {
+  grid-area: b;
+  display: inline-block;
+}
+
+.anim {
+  grid-area: c;
+}
+
+.offic {
+  grid-area: d;
+}
+
+.phot {
+  grid-area: e;
+}
+
+.prem {
+  grid-area: f;
+}
+
+.audac {
+  grid-area: g;
+}
+
+.scenar {
+  grid-area: h;
+}
+
+.html {
+  grid-area: i;
+}
+
+.css {
+  grid-area: j;
+}
+
+#softskills ul {
+  padding: 15px 10px 15px 10px !important;
+}
+
+.soft {
+  padding: 5px 5px 5px 5px !important;
+}
+
+.contain {
+  background-color: #ffffff;
+  border-radius: .20rem;
+  margin: 20px;
+  overflow: hidden;
+  padding:;
+}
+
+.puce {
+  height: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*Bloc loisirs*/
+#loisirs {
+
+}
+
+#listeloisirs {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding :30px 0 30px 0;
+}
+
+.iconloisirs {
+  height: 50px;
+  color: #da5f5f;
+  opacity: 0.9;
+  vertical-align: middle;
+  padding-bottom: 8px;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+/*Bloc portfolio*/
+#portfolio {
+
+}
+
+#piedpage {
+
+}
+
+#fin1 {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 15px 0 0 0;
+}
+
+.fin2 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  padding:0;
+}
+
+.footer {
+  padding-top: 20px;
+  margin: 0;
+}
