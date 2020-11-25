@@ -29,6 +29,16 @@
   grid-template-rows: auto;
 }
 
+#japongrid {
+  padding:10px 10px 10px 0;
+  display: grid;
+  grid-template-areas: 
+    "k4 l5 m5 n4"
+    "k4 l6 m6 n4";
+  grid-template-columns: 5% auto 1fr 50%;
+  grid-template-rows: auto auto;
+}
+
 #tourismegrid {
   padding:10px 10px 10px 0;
   display: grid;
@@ -58,8 +68,12 @@
   grid-area: k2;
 }
 
+#japon {
+  grid-area: k4;
+}
+
 #enseignement {
-grid-area: k3;
+  grid-area: k3;
 }
 
 #logomarine {
@@ -144,9 +158,18 @@ grid-area: k3;
   line-height: 2;
 }
 
+#compjapon {
+  grid-area: n4;
+  text-align: center;
+  line-height: 2;
+  display:inline;
+  vertical-align: middle;
+}
+
 .ulkiabi {
   display:inline-block;
   vertical-align: top;
   padding-left: 20px;
   padding-right: 20px;
  }
+

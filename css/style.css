@@ -90,7 +90,7 @@ footer {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  color:000000; 
+  color:#000000; 
 }
 
 /*Couleurs de fond*/
@@ -197,6 +197,25 @@ footer {
   width: 35px;
 }
 
+.resume {
+  padding:0;
+}
+
+.resumetop {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.resumefinal {
+  font-weight: bold;
+  font-size: 16px;
+  color: #da5F5F;
+}
+
+.resumecorps{
+  margin-left: 30px;
+}
+
 /*Bloc formation*/
 /*Voir timeline.css pour la timeline de la formation*/
 #formation {
@@ -226,6 +245,15 @@ footer {
   font-weight: 500;
   font-size: 15px;
   padding-bottom: 5px;
+}
+
+.poste {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 5px;
+  font-style: italic;
+  color:#da5F5F;
 }
 
 .détail {
@@ -414,3 +442,4 @@ footer {
   padding-top: 20px;
   margin: 0;
 }
+
